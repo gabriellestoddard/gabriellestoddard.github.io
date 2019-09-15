@@ -18,92 +18,128 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
          <link rel="stylesheet" href="https://use.typekit.net/knr5uqw.css">
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js" integrity="sha256-uckMYBvIGtce2L5Vf/mwld5arpR5JuhAEeJyjPZSUKY=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/swiper.css">
+
 
     </head>
-    <body>
-   
+    <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+       font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 25px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      background: transparent;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+<body id="fade">
     
      <nav>
        
-       <div class="navigation">
-           <p class="p1">Gabrielle Stoddard<br><a class="link2" href="index.html">Overview</a>, <a class="link2" href="projects.html"><i>Projects</i></a>, <a class="link2" href="information.html">Information</a>
+
+         
+         <div class="close">
+           <p class="p1"><a class="link2" href="projects.html">Projects</a>
            </p>
         </div>
+         
     </nav>
+    
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
         
- <div class="spacefirst"></div>
-      <div class="projects" id="fade">
-          
-
-          
-<p class="p3"><a class="link3" href="priyankarana.html">Priyanka Rana</a><br></p>          
-                
-<p class="p3"><a class="link3" href="tosee.html">To See, To Not See,<br> To Stop and See</a><br></p>
-          
-           <p class="p3"><a class="link3" href="uncontrolled.html">Uncontrolled</a><br></p>
-          
-<p class="p3"><a class="link3" href="untitledcollages.html">Untitled Collages</a><br></p>
-
-          
-<p class="p3"><a class="link3" href="digitalcollages.html">Digital Collages</a><br></p>
-            
-    <p class="p3"><a class="link3" href="francesnation.html">Frances Nation</a><br></p>      
-          
-           
-<p class="p3"><a class="link3" href="hollydancer.html">Holly Dancer</a><br></p>          
-       
-
-                  
-          <p class="p3"><a class="link3" href="buddytees.html">Buddy Tees</a><br></p>
-          
-          
-<p class="p3"><a class="link3" href="tutuhug.html">Tutu Hug</a><br></p>
-          
-         
-          
-         
-          
-<p class="p3"><a class="link3" href="elizaperry.html">Eliza Perry</a><br></p>
-
-          <p class="p3"><a class="link3" href="sphaerasoaps.html">Sphaera Soap</a><br></p>
-          
-          
-           <p class="p3"><a class="link3" href="agift.html">A Gift</a><br></p>
-         
-          
-          <p class="p3"><a class="link3" href="ballet.html">Ballet</a><br></p>
-         
-          
-          
         
+    
+<p class="p2"><i>Tutu Hug</i></p>        
+        
+        </div>
+      <div class="swiper-slide">
           
+          <div class="row">
+              <div class="col3"></div>
+                <div class="col4">
+                    <img src="img/Tutu-hug,-2019.jpg" width="85%">
+                </div>
+               <div class="col3"></div>
+          </div>
           
-
-          
-
+        </div>
+        
+      <div class="swiper-slide">
+        <div class="row">
+              <div class="col3"></div>
+                <div class="col4">
+                    <img src="img/tutuhug,-2019-copy.jpg" width="90%">
+                </div>
+               <div class="col3"></div>
+          </div>
+        </div>
       
-
-          
-          
-  
-          
-
-          
-
-          
-
-
-          
-          
-          
-          
     </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+         
+         
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      speed: 550,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+    
+
      
-<div class="space3"></div>
         
-        <div class="row" id="fade"><div class="copyright">
-       <p class="p5">&copy; All Works Gabrielle Stoddard. All Rights Reserved</p></div></div>
         
         
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
