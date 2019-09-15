@@ -23,7 +23,7 @@
 
 
     </head>
-    <body><style>
+    <style>
     html, body {
       position: relative;
       height: 100%;
@@ -45,7 +45,6 @@
     }
     .swiper-slide {
       text-align: center;
-      font-size: 18px;
       background: transparent;
       /* Center slide text vertically */
       display: -webkit-box;
@@ -66,7 +65,7 @@
     
      <nav>
        
-       
+
          
          <div class="close">
            <p class="p1"><a class="link2" href="projects.html">Projects</a>
@@ -82,8 +81,7 @@
         
         
     
-         <p class="p2"><i>Untitled Collages</i></p>
-        
+<p class="p2"><i>Untitled Collages</i></p>        
         
         </div>
       <div class="swiper-slide">
@@ -91,7 +89,7 @@
           <div class="row">
               <div class="col2"></div>
                 <div class="col6">
-                    <img src="img/Collage-series,-Cave-2019%20copy.jpg" width="100%">
+                    <img src="img/Collage-series,-Cave-2019%20copy.jpg" width="90%">
                 </div>
                <div class="col2"></div>
           </div>
@@ -102,22 +100,22 @@
         <div class="row">
               <div class="col2"></div>
                 <div class="col6">
-                    <img src="img/Collage-series,-Tent-2019-.jpg" width="100%">
+                    <img src="img/Collage-series,-Tent-2019-.jpg" width="90%">
                 </div>
                <div class="col2"></div>
           </div>
         </div>
-      <div class="swiper-slide">
         
-          <div class="row">
+        <div class="swiper-slide">
+        <div class="row">
               <div class="col2"></div>
                 <div class="col6">
-                    <img src="img/collage-series,-gift,-2019.jpg" width="100%">
+                    <img src="img/collage-series,-gift,-2019.jpg" width="90%">
                 </div>
                <div class="col2"></div>
           </div>
-          
         </div>
+      
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
@@ -130,15 +128,14 @@
   <script src="../dist/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
-     
-     <script>
+  <script>
          
          
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 30,
+      speed: 550,
       loop: true,
-        speed:550,
       pagination: {
         el: '.swiper-pagination',
         type: 'fraction',
@@ -149,6 +146,7 @@
       },
     });
   </script>
+    
 
      
         
