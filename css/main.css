@@ -338,7 +338,7 @@ img{
 
 .spacefirst{
     width: 100%;
-    height: 14vh;
+    height:14vh;
     display: block;
 }
 .space2{
@@ -531,10 +531,7 @@ img{
     padding-right: 20px;
 }
     
-.spacefirst{
-    width: 100%;
-    height: 50px;
-}
+
 
 .space{
     width: 100%;
@@ -553,18 +550,17 @@ img{
 
    }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 500px){
 
-/*
-[data-image-id="ImageCentre"]{ 
-    height: 100vh;
-    padding: 5%;
-    margin: auto;}
-*/
 
-    .spacefirst{
+.spacefirst{
     width: 100%;
-    height: 50px;
+    height: 100px;
+}
+    
+.biography{
+    width: 100%;
+    padding: 20px
 }
 
 .space{
@@ -576,7 +572,57 @@ img{
     width: 100%;
     height: 20px;
 }
+    
+.p4{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
 
+
+.p4.i{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
+  .p5{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.p5.i{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
+    
+    }
 
 /* ==========================================================================
    Helper classes
