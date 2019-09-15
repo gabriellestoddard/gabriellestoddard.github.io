@@ -65,6 +65,7 @@ body {
 
 
 
+
 .p1{
     font-family: garamond-premier-pro,serif;
     font-weight: 400;   
@@ -144,7 +145,7 @@ body {
     letter-spacing: -0.01em;
 }
 
-.p2.1{
+.p2.i{
     font-family: garamond-fb-display,serif;
     font-weight: 300;
     font-style: italic;
@@ -486,9 +487,54 @@ a.link3:hover {
 
 
 
+@media only screen and (min-width: 1680px) {
+   
+    .p3{
+    font-family: garamond-fb-display,serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 6vw;
+    line-height: 0.85;
+    letter-spacing: 0em;     
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.p3.i{
+    font-family: garamond-fb-display,serif;
+    font-weight: 300;
+    font-style: italic;
+    -webkit-font-smoothing:antialiased;
+    font-size: 6vw;
+    line-height: 0.85;
+    letter-spacing: 0em;     
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+    body{
+        max-width: 1680px;
+        align-content: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+        max-width: 1680px;
+        align-content: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+}
 
 
-@media only screen and (max-width: 1200px){
   
 
 
