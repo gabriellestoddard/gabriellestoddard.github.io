@@ -339,7 +339,7 @@ img{
 
 .spacefirst{
     width: 100%;
-    height:14vh;
+    height:150px;
     display: block;
 }
 .space2{
@@ -517,14 +517,12 @@ a.link3:hover {
     letter-spacing: -0.01em;
 }
     body{
-        max-width: 1680px;
         align-content: center;
         padding: 0;
         margin-left: auto;
         margin-right: auto;
     }
     nav{
-        max-width: 1680px;
         align-content: center;
         padding: 0;
         margin-left: auto;
