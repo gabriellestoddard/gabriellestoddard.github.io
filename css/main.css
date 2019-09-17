@@ -495,7 +495,7 @@ a.link3:hover {
     font-style: normal;
     -webkit-font-smoothing:antialiased;
     font-size: 6vw;
-    line-height: 0.85;
+    line-height: 0.9;
     letter-spacing: 0em;     
     margin: auto;
     padding: 0px;
@@ -509,7 +509,7 @@ a.link3:hover {
     font-style: italic;
     -webkit-font-smoothing:antialiased;
     font-size: 6vw;
-    line-height: 0.85;
+    line-height: 0.9;
     letter-spacing: 0em;     
     margin: auto;
     padding: 0px;
@@ -528,7 +528,11 @@ a.link3:hover {
         margin-left: auto;
         margin-right: auto;
     }
-
+.biography{
+    width: 100%;
+    padding: 20px;
+    max-width: 1680px;
+}
     
 }
 
@@ -604,7 +608,7 @@ img{
     
 .biography{
     width: 100%;
-    padding: 20px
+    padding: 20px;
 }
 
 .space{
