@@ -276,7 +276,7 @@ nav{
 .projects{
     right: 30px;
     top: 25px;
-    z-index: 999999;
+    z-index: 9999999;
         position: absolute;
     color: black;
     opacity: 1;
