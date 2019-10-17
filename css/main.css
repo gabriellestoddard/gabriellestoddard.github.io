@@ -670,7 +670,7 @@ img{
 
 .spacefirst{
     width: 100%;
-    height: 100px;
+    height: 140px;
 }
     
 .biography{
@@ -687,6 +687,22 @@ img{
     width: 100%;
     height: 20px;
 }
+    
+    .p1{
+        font-size: 20px;
+    }
+    .p1.i{
+        font-size: 20px;
+    }
+    
+    .p3{
+        line-height: 1;
+    }
+
+    .p3.i{
+        line-height: 1;
+    }
+
     
 .p4{
     font-family: garamond-premier-pro,serif;
