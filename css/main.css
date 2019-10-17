@@ -280,6 +280,7 @@ nav{
         position: absolute;
     color: black;
     opacity: 1;
+    text-shadow: none;
 }
 
 .next{
