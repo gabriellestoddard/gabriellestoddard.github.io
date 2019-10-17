@@ -9,6 +9,10 @@
     color: lightgrey;
 }
 
+* {
+    text-shadow:transparent;
+}
+
 
 audio,
 canvas,
