@@ -80,8 +80,6 @@ body {
     display: inline;
 }
 
-
-
 .overlay-tl {
   position: fixed; 
   top:40px;
@@ -774,6 +772,58 @@ align-self: center;}
     margin: 0px;
     padding: 0px;
 }
+    
+.overlay-lb {
+  position: fixed; 
+  bottom:40px;
+  right:40px;
+  transition: 300ms ease-in-out;
+  opacity:0;
+  padding: 0px;
+  text-align: left;
+    display: inline;
+}
+
+.overlay-tl {
+  position: fixed; 
+  top:40px;
+  left:40px;
+    box-sizing: border-box;
+  color: black; 
+  transition: 300ms ease-in-out;
+  opacity:0;
+  padding: 0px;
+  text-align: left;
+}
+.overlay-bl {
+  position: fixed; 
+  bottom: 40px;
+  left:40px;
+    box-sizing: border-box;
+  color: black; 
+  transition: 300ms ease-in-out;
+  opacity:0;
+  padding: 0px;
+  text-align: left;
+}
+
+#cap:hover .overlay-lb {
+  opacity: 0;
+    z-index: 99999;
+    position: fixed;
+    display: flex;
+}
+#cap:hover .overlay-bl {
+  opacity: 0;
+    z-index: 99999;
+    position: fixed;
+}
+
+#cap:hover .overlay-tl {
+  opacity: 0;
+    z-index: 99999;
+    position: fixed;
+}    
     
     }
 
