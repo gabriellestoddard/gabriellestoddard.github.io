@@ -214,6 +214,33 @@ body {
     letter-spacing: -0.01em;
 }
 
+
+.p6{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 17px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.p6.i{
+    font-family: garamond-premier-pro,serif;
+    font-weight: 400;   
+    font-style: normal;
+    -webkit-font-smoothing:antialiased;
+    font-size: 17px;
+    line-height: 1.25;
+    letter-spacing: 0em;     
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .p5{
     font-family: garamond-premier-pro,serif;
     font-weight: 400;   
@@ -309,11 +336,12 @@ nav{
     padding-top: 20px;
 }
 
-.tittle{
+.title{
     z-index: 9999;
     text-align: center;
     display: block;
     margin: auto;
+    padding-top: 15px;
 }
 
 
